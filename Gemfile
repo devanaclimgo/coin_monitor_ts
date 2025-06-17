@@ -31,6 +31,9 @@ gem "solid_cable"
 # for tailwindcss
 gem "tailwindcss-rails", "~> 3.3.1"
 
+# for vite
+gem "vite_rails"
+
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
