@@ -34,6 +34,9 @@ gem "tailwindcss-rails", "~> 3.3.1"
 # for vite
 gem "vite_rails"
 
+# for chartkick
+gem "chartkick"
+
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
