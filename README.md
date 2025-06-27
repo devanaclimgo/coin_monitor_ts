@@ -98,7 +98,7 @@ docker-compose up
 3. Access the app at ```http://localhost:3000```
 
 ## 🖥️ Development Setup
-###Prerequisites:
+### Prerequisites:
 - Ruby 3.x
 - PostgreSQL
 - Node.js 16+
