@@ -1,0 +1,8 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+[remote "origin"]
+	url = https://github.com/devanaclimgo/coin_monitor_ts.git
+	fetch = +refs/*:refs/*
+	mirror = true

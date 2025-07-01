@@ -1,0 +1,11 @@
+# pack-refs with: peeled fully-peeled sorted 
+eae5040ec2fb0cd6c2693330e83ebfbc05eba1fc refs/heads/dependabot/bundler/sqlite3-2.7.1
+26ed1112f77bb132d3ab08c7989df4eb2fe11cb8 refs/heads/main
+037372cf63303f2837bf4ec5710d8cb0b57007f5 refs/pull/1/head
+3dd83cb9d92c7d71519eeaa3f6abb88e35873d95 refs/pull/2/head
+fc9350101fe0887b8d79dbd535828402401a0c03 refs/pull/3/head
+2f67b8251e82c4f6f65ddd616c553e9b671a33f9 refs/pull/4/head
+516b58a304074c10a7260528e4696a1d311b5da3 refs/pull/5/head
+a5b56f6fb236351cc8d21ee306177d62cb4257ab refs/pull/6/head
+eae5040ec2fb0cd6c2693330e83ebfbc05eba1fc refs/pull/7/head
+84aeb5a8358685e5c9781d71dd34c9a8b2a68771 refs/pull/7/merge
