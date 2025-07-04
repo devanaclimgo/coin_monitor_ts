@@ -12,4 +12,10 @@ export default defineConfig({
   server: {
     host: 'localhost',
   },
+   resolve: {
+    alias: {
+      '@hotwired/turbo-rails': '/path/to/your/node_modules/@hotwired/turbo-rails',
+      '@hotwired/stimulus': '/path/to/your/node_modules/@hotwired/stimulus'
+    }
+  }
 })
