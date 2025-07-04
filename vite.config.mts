@@ -1,7 +1,7 @@
-import { defineConfig } from 'vite'
-import RubyPlugin from 'vite-plugin-ruby'
-import FullReload from 'vite-plugin-full-reload'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import RubyPlugin from 'vite-plugin-ruby';
+import FullReload from 'vite-plugin-full-reload';
+import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [
@@ -11,11 +11,16 @@ export default defineConfig({
   ],
   server: {
     host: 'localhost',
+    hmr: {
+      host: 'localhost',
+      protocol: 'ws',
+    },
   },
-   resolve: {
+  resolve: {
     alias: {
-      '@hotwired/turbo-rails': '/path/to/your/node_modules/@hotwired/turbo-rails',
-      '@hotwired/stimulus': '/path/to/your/node_modules/@hotwired/stimulus'
-    }
-  }
-})
+      '@hotwired/turbo-rails':
+        '/path/to/your/node_modules/@hotwired/turbo-rails',
+      '@hotwired/stimulus': '/path/to/your/node_modules/@hotwired/stimulus',
+    },
+  },
+});
