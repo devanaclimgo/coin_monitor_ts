@@ -7,9 +7,13 @@
     "@react-three/drei": "^10.4.2",
     "@react-three/fiber": "^9.2.0",
     "@types/three": "^0.178.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.525.0",
     "react": "^18.2.0",
     "react-chartjs-2": "^5.3.0",
     "react-dom": "^18.2.0",
+    "tailwind-merge": "^3.3.1",
     "three": "^0.178.0"
   },
   "devDependencies": {
@@ -22,6 +26,7 @@
     "chartkick": "^5.0.1",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.11",
+    "tw-animate-css": "^1.3.5",
     "typescript": "^5.0.0",
     "vite": "^5.0.0",
     "vite-plugin-full-reload": "^1.2.0",
